@@ -15,3 +15,10 @@ dennis_attributes = { name: "Ruyo", hair_color: "Black" }
 dennis = Person.new(dennis_attributes)
 p dennis.name
 p dennis.hair_color
+
+susan_attributes = { name: "Susan", height: "5'11\"", eye_color: "Green" }
+
+susan = Person.new(susan_attributes)
+p susan.name      
+p susan.height    
+p susan.eye_color

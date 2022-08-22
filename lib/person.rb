@@ -10,3 +10,8 @@ class Person
     end
   end
 end
+
+dennis_attributes = { name: "Ruyo", hair_color: "Black" }
+dennis = Person.new(dennis_attributes)
+p dennis.name
+p dennis.hair_color
